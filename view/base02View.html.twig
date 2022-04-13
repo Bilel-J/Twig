@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>base02 depuis vue</title>
+</head>
+<body>
+<h1>Ceci est notre premier template Twig</h1>
+<h3>Nous avons passé une variable dans un tableau à cette vue</h3>
+<p>['name' => 'Michaël'] donc on peut l'afficher en twig en utilisant { { name } } (collés)</p>
+<p>{{ name }}</p>
+<h4>Fonctionne car on a trouvé la clef au format texte ou numérique qui peut être affichée</h4>
+<p>{{ montab.Deums }}</p>
+<h4>On va utiliser for et endfor pour faire une boucle sur montab.Prems</h4>
+<p>
+{% for item in montab.Prems %}
+    {{ item }}
+{% endfor %}
+</p>
+</body>
+</html>
