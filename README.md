@@ -1,5 +1,11 @@
 # Twig
 
+On va utiliser WAMP avec PHP 8.013
+
+depuis : 
+
+https://wampserver.aviatechno.net/?lang=french
+
 **Projet Twig:**
 
 https://twig.symfony.com/
@@ -14,7 +20,7 @@ Utilisation de composer :
 
 https://getcomposer.org/download/
 
-à télécharger sur votre machine et à installer. Si il existe déjà utilisez la commande
+à télécharger sur votre machine et à installer. S'il existe déjà utilisez la commande
 
     composer self-update
 
